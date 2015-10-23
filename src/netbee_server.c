@@ -1,5 +1,0 @@
-#ifndef NETBEE_SERVER_C
-#define NETBEE_SERVER_C
-
-#endif // NETBEE_SERVER_C
-
