@@ -1,0 +1,2 @@
+/home/beny/github/netbee/build/bin/client/CMakeFiles/netbee_client.dir
+/home/beny/github/netbee/build/bin/server/CMakeFiles/netbee_server.dir

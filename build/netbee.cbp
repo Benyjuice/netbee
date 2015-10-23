@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="netbee" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\server\;CMake Files\src\client\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/beny/github/netbee/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/beny/github/netbee/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/beny/github/netbee/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/beny/github/netbee/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/beny/github/netbee/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/beny/github/netbee/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="netbee_server">
+         <Option output="/home/beny/github/netbee/build/bin/server/netbee_server" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/beny/github/netbee/build/bin/server" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/beny/github/netbee/src/../inc" />
+            <Add directory="/home/beny/github/netbee/src/../inc/core" />
+            <Add directory="/home/beny/github/netbee/src/../inc/utils" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/bin/server/Makefile&quot;  VERBOSE=1 netbee_server" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/bin/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/bin/server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/bin/server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="netbee_server/fast">
+         <Option output="/home/beny/github/netbee/build/bin/server/netbee_server" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/beny/github/netbee/build/bin/server" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/beny/github/netbee/src/../inc" />
+            <Add directory="/home/beny/github/netbee/src/../inc/core" />
+            <Add directory="/home/beny/github/netbee/src/../inc/utils" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/bin/server/Makefile&quot;  VERBOSE=1 netbee_server/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/bin/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/bin/server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/bin/server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="netbee_client">
+         <Option output="/home/beny/github/netbee/build/bin/client/netbee_client" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/beny/github/netbee/build/bin/client" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/beny/github/netbee/src/../inc" />
+            <Add directory="/home/beny/github/netbee/src/../inc/core" />
+            <Add directory="/home/beny/github/netbee/src/../inc/utils" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/bin/client/Makefile&quot;  VERBOSE=1 netbee_client" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/bin/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/bin/client/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/bin/client/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="netbee_client/fast">
+         <Option output="/home/beny/github/netbee/build/bin/client/netbee_client" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/beny/github/netbee/build/bin/client" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/beny/github/netbee/src/../inc" />
+            <Add directory="/home/beny/github/netbee/src/../inc/core" />
+            <Add directory="/home/beny/github/netbee/src/../inc/utils" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/bin/client/Makefile&quot;  VERBOSE=1 netbee_client/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/bin/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/bin/client/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/beny/github/netbee/build/bin/client/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/beny/github/netbee/src/client/client.c">
+      </Unit>
+      <Unit filename="/home/beny/github/netbee/src/core/core.c">
+      </Unit>
+      <Unit filename="/home/beny/github/netbee/src/server/server.c">
+      </Unit>
+      <Unit filename="/home/beny/github/netbee/src/utils/utils.c">
+      </Unit>
+      <Unit filename="/home/beny/github/netbee/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/beny/github/netbee/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/home/beny/github/netbee/src/server/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\server\" />
+      </Unit>
+      <Unit filename="/home/beny/github/netbee/src/client/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\client\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

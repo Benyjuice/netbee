@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/../inc/core/core.h
+
+../src/../inc/utils.h
+stdio.h
+../src/../inc/stdio.h
+
+/home/beny/github/netbee/src/client/client.c
+stdio.h
+-
+core.h
+/home/beny/github/netbee/src/client/core.h
+utils.h
+/home/beny/github/netbee/src/client/utils.h
+sys/socket.h
+-
+netinet/in.h
+-
+errno.h
+-
+stdlib.h
+-
+string.h
+-
+

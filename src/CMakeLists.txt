@@ -1,0 +1,7 @@
+include_directories(../inc)
+include_directories(../inc/core)
+include_directories(../inc/utils)
+aux_source_directory(${PROJECT_SOURCE_DIR}/src/core CORE_SRC)
+aux_source_directory(${PROJECT_SOURCE_DIR}/src/utils UTILS_SRC)
+add_subdirectory(server)
+add_subdirectory(client)

@@ -1,0 +1,1 @@
+/usr/bin/cc  -g    CMakeFiles/netbee_server.dir/server.c.o CMakeFiles/netbee_server.dir/__/core/core.c.o CMakeFiles/netbee_server.dir/__/utils/utils.c.o  -o netbee_server -rdynamic 
